@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:bugrattle/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:bugrattle/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:bugrattle/prow:hmacToken
+segmentWriteKey: vault:bugrattle:segmentWriteKey
